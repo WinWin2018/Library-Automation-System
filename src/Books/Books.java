@@ -10,7 +10,6 @@ public class Books {
     private String author;
     private String publisher;
     private int yearOfPublication;
-    //private String type;
     private static int totalCount=0;
 
     public Books(int bookId, String bookName, String author, String publisher, int yearOfPublication) {

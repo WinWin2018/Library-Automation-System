@@ -18,7 +18,7 @@ import java.sql.Statement;
 /**
  *
  * @author selen
- *//*
+ */
 public class ConnectionDB {
     private String userName="root";
    private String password="";
@@ -71,4 +71,3 @@ public class ConnectionDB {
        }
        
   } 
-*/

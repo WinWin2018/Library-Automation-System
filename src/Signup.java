@@ -256,19 +256,12 @@ public class Signup extends javax.swing.JFrame {
            
            
            User stu = new Student(university, department, name, surname, age2, gender, password);
-       //    ConnectionDB con= new ConnectionDB();
-         //con.addUser(stu);
+           ConnectionDB con= new ConnectionDB();
+           con.addUser(stu);
            
            User.users.add(stu);
            JOptionPane.showMessageDialog(this, stu.getId());
                    
-                   
-                   
-                   
-                   
-                   
-
-           
            this.setVisible(false);
            Login login=new Login();
            login.setVisible(true);

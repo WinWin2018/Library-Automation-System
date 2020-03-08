@@ -23,7 +23,7 @@ import javax.swing.ImageIcon;
 
 public class LibraryPanel extends javax.swing.JFrame {
         public static String  s;
-     //User user= new User();
+  
          
        public static String book( int bookId, String bookName, String author, String publisher, int yearOfPublication)
      {
@@ -32,10 +32,6 @@ public class LibraryPanel extends javax.swing.JFrame {
        }
      
     
-    
-    
-
-     
      BookAction bookAction= new BookAction();
      
     
@@ -58,30 +54,7 @@ public class LibraryPanel extends javax.swing.JFrame {
         allBooks.setVisible(false); 
         removingBook.setVisible(false);
         panel_view.setVisible(false);
-        
-        
-        
-        
-        //lbIcon.setIcon(myLibrary);
-        /*
-        label_name.setText(user.getName());
-        label_surname.setText(user.getSurname());
-        label_age.setText(String.valueOf(user.getAge()));
-        label_gender.setText(user.getGender());
-        if (user instanceof Student) {
-            label_job.setText("Student");
-        }
-        else if (user instanceof Academician) {
-            label_job.setText("Academician");
-        }*/
-       
-       //BookAction.addBook(new Books(01, "Pride and Prejudice", "Jane Austen", "Can", 2007));
-      //  s= book(01, "Pride and Prejudice", "Jane Austen", "Can", 2007);
-       
-       // BookAction.addBook(new Books(02, "Nar Agacı", "Nazan Bekiroglu", "Timas", 2012));
-        
-        
-        
+          
         
     }
     
@@ -445,7 +418,7 @@ public class LibraryPanel extends javax.swing.JFrame {
 
     private void jbAddBookActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbAddBookActionPerformed
         allBooks.setVisible(true);
-     //   lbSearch.setIcon(mySearch);
+     
     }//GEN-LAST:event_jbAddBookActionPerformed
 
     private void addToUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addToUserActionPerformed
@@ -487,9 +460,7 @@ public class LibraryPanel extends javax.swing.JFrame {
 
     private void jbRemoveBookActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbRemoveBookActionPerformed
         removingBook.setVisible(true);
-        
-        
-        
+       
         
     }//GEN-LAST:event_jbRemoveBookActionPerformed
 

@@ -6,7 +6,7 @@ import java.util.*;
  
 public class BookAction implements Actions{
 
-     public static ArrayList<Books> book= new ArrayList<>();//kütüphanedeki tüm kitaplar için
+     public static ArrayList<Books> book= new ArrayList<>();//for all books in the library
      public static ArrayList<String> bName= new ArrayList<>();
     
       

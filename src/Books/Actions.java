@@ -11,8 +11,7 @@ package Books;
  * @author USER
  */
 public interface Actions {
-    //public boolean addNovel();
-    //public boolean addEducationalBooks();
+   
     public String alphabeticalSorting();
     public Books searchBook(int id);
     public void getAllBooks();
